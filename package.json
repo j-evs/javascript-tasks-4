@@ -1,4 +1,6 @@
 {
+  "version": "0.0.1",
+  "name": "js-task-4",
   "private": true,
   "dependencies": {
     "chai": "^3.3.0",
@@ -8,6 +10,7 @@
   },
   "scripts": {
     "test": "npm run lint && mocha test/*",
-    "lint": "jscs ."
+    "lint": "jscs .",
+    "mocha": "mocha test/*"
   }
 }

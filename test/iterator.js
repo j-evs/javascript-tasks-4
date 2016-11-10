@@ -23,6 +23,7 @@ describe('Базовое тестирование итератора', function 
     it('Метод prev() должен возвращать предыдущего друга', function () {
         var friends = iterator.get(faceBook, 'Сергей', 3);
 
+
         friends.next();
         friends.next();
 
